@@ -19,11 +19,11 @@ def get_edits() -> int:
 
     username = driver.find_element_by_name("wpName") #finds the username field by its id
     username.clear()
-    username.send_keys("oliynyk2") #types in username
+    username.send_keys("insert username") #types in username
 
     password = driver.find_element_by_id("wpPassword1") #finds password field by its id
     password.clear()
-    password.send_keys("48752") #types in password
+    password.send_keys("password") #types in password
 
     driver.find_element_by_name("wploginattempt").click() #finds the login button and clicks it
 
